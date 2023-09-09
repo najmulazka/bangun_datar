@@ -25,6 +25,14 @@ async function main() {
                     console.log(result);
                     break;
 
+                // najmul azka -> add case 2
+                case 2:
+                    let panjang = window.prompt('Masukan panjang sisi');
+                    let lebar = window.prompt('Masukan lebar sisi');
+                    result = bangun1.luasPersegiPanjang(panjang, lebar);
+                    console.log(result);
+                    break;
+
                 default:
                     alert('Menu tidak tersedia');
                     break;
